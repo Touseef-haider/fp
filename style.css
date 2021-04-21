@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.banner-image{
+    height: 700px;
+    background-image: url('./image/Trulyfuture-slider-img.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    color: white;
+}
+.btn{
+    border-radius: 20px;
+}
+.hexagon{
+    margin-top: 60px;
+}
+.hexagon h3{
+    margin-top: 40px;
+    text-align: center;
+}
+.hexagon p{
+    text-align: center;
+}
+.start{
+  width: 0;
+  border-bottom: 30px solid #6C6;
+  border-left: 52px solid transparent;
+  box-shadow: 13px 13px 0px 0px  #FFFFFF;
+  border-right: 52px solid transparent;
+}
+  .mid{
+  width: 104px;
+  height: 60px;
+  background-color: #6C6;
+  display:flex;
+  justify-content:center;
+  box-shadow: 13px 13px 0px 0px  #FFFFFF;
+  align-items:center
+  }
+  .end{
+  width:0;
+  border-top: 30px solid #6C6;
+  border-left: 52px solid transparent;
+  box-shadow: 13px 13px 0px 0px  #FFFFFF;
+  border-right: 52px solid transparent;
+  }
+  /* search box */
+  .navbar{
+      padding: 20px !important;
+  }
+  .extand {
+      width: 180px;
+      display: none;
+      margin-left: 20px;
+      margin-top: -28px;
+      transition: width 2s;
+    }
+  /* end of search box */
+  .purple{
+      background-color: purple;
+  }
+  
+  .nav-item:hover{
+      color: orangered;
+  }
+
+/* Website Under construction CSS */
+
+p{
+    font-size: 30px;
+    color: #533597;
+    margin-top: 70px;
+    margin-bottom: 67px;
+}
+.WUC-image{
+    margin-bottom: 40px;
+}
+small{
+    color: #533597;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-right: 15px;
+}
+.daystogo{
+    margin-top: 100px;
+}
+#demo{
+    margin-top: 80px;
+}   
+#days,#hours,#min,#sec{
+   font-weight: bold;
+    color: #533597;
+}
+.colon{
+    text-align: center;
+    margin-left: 15px;
+    color: #533597;
+}
+.uni{
+    margin-left: 50px;
+}
+.social-media a{
+    text-decoration: none;
+    color: #533597;
+}
+
+footer{
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+@media(min-width:1100px){
+    .social-media{
+        margin-right: 130px;
+    }
+}
+.color-fff{
+    color: white;
+}
+.image-imp{
+    position: relative;
+}
+.image-imp div{
+    align-items: center;
+    position: absolute;
+    left: 12px;
+    top: 160px;
+}
+.image-imp div:first-child{
+    font-weight: bold;
+}
+/* End of the CSS of  Website Under construction  */
